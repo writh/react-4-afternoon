@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Routes from './src/Routes.js';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,8 @@ export default class App extends Component {
               <div className='links'>About</div> 
           </div>
         </nav>
+
+        { Routes }
       </div>
     )
   }
